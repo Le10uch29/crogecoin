@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} font-sans overflow-x-hidden`}>
         <main>
           {children}
-          <span className="absolute border-[1.4px] border-[#fff] bg-[#fff] top-[800px] left-0 w-[100vw] -z-[10]"></span>
+          <span className="absolute border-[2px] border-[#fff] bg-[#fff] top-[1110px] md:top-[630px] lg:top-[670px] xl:top-[735px] 2xl:top-[790px] left-0 w-[100vw] -z-[10]"></span>
         </main>
       </body>
     </html>

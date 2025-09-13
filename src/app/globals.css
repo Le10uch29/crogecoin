@@ -23,10 +23,18 @@ body {
 button {
   cursor: pointer;
 }
+
 .container {
   max-width: 1920px;
   padding: 60px 150px;
   margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 60px 50px;
+    margin: 0 auto;
+  }
 }
 
 @keyframes scroll {

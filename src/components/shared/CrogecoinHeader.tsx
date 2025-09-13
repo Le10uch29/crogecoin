@@ -10,9 +10,9 @@ const CrogecoinHeader = () => {
         href="https://coinmarketcap.com/currencies/crogecoin/"
         target="_blank"
         rel="noopener noreferrer"
-        className="group cursor-pointer border-[1.4px] border-[rgba(0,0,0,1)] bg-[#ffffff] pl-[19.4px] pt-[26.2px] pb-[22.6px] pr-[61.1px] flex items-center rounded-[20px]"
+        className="group cursor-pointer border-[2px] border-[rgba(0,0,0,1)] bg-[#ffffff] pl-[19.4px] pt-[26.2px] pb-[22.6px] pr-[61.1px] flex items-center rounded-[20px]"
       >
-        <div className="border-[1.4px] border-[rgba(0,0,0,1)] rounded-full bg-[#00A62B] p-[9.5px] mr-[40px] transition-transform duration-300 ease-in-out group-hover:scale-105">
+        <div className="border-[2px] border-[rgba(0,0,0,1)] rounded-full bg-[#00A62B] p-[9.5px] mr-[40px] transition-transform duration-300 ease-in-out group-hover:scale-105">
           <Image
             src="/svg/hero-logo-1.svg"
             alt="hero logo"
