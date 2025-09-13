@@ -6,7 +6,6 @@
 }
 
 @theme inline {
-  --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -14,13 +13,43 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
 
+html {
+  font-size: clamp(12px, 0.9vw, 16px);
+}
+
 body {
-  background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
+  background: linear-gradient(90deg, #2f8971 0%, #5ba23c 50%, #9fbe22 100%);
+  min-height: 100vh;
+  padding: 53.2px 230px;
+  transform: scale(0.8);
+  transform-origin: top center;
+  width: 125%;
+}
+
+button {
+  cursor: pointer;
+}
+
+/*.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}*/
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 25s linear infinite;
 }
