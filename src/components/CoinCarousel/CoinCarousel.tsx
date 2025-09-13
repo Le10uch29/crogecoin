@@ -14,7 +14,7 @@ const images = [
 
 const CoinCarousel = () => {
   return (
-    <div className="relative z-[555] bg-transparent h-[80px]">
+    <div className="absolute z-[555] bg-transparent h-[80px]  -left-[300px]">
       <div className="flex w-max animate-scroll gap-[65px] h-full items-center">
         {[...images, ...images].map((img, i) => (
           <div key={i} className="flex items-center">
