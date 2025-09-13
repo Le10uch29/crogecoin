@@ -20,8 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} font-sans`}>
-        <main>{children}</main>
+      <body className={`${poppins.variable} font-sans overflow-x-hidden`}>
+        <main>
+          {children}
+          <span className="absolute border-[1.4px] border-[#fff] bg-[#fff] top-[800px] left-0 w-[100vw] -z-[10]"></span>
+        </main>
       </body>
     </html>
   );

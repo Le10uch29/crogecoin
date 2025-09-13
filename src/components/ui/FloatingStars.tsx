@@ -21,12 +21,6 @@ const Star = ({ top, left, direction = "up", size = 40 }: StarProps) => {
       animate={{
         y: [0, yShift, 0],
         scale: [1, 1.2, 1],
-        opacity: [0.7, 1, 0.7], // мерцание
-        filter: [
-          "drop-shadow(0 0 2px #fff)",
-          "drop-shadow(0 0 8px #ffd700)",
-          "drop-shadow(0 0 2px #fff)",
-        ], // свечение
       }}
       transition={{
         duration: 4 + Math.random() * 3,

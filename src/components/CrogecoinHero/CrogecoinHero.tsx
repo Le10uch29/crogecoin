@@ -7,7 +7,7 @@ import FloatingStars from "../ui/FloatingStars";
 const CrogecoinHero = () => {
   return (
     <div className="flex flex-col">
-      <span className="mb-[23.9px] text-[21px] font-[700] text-[rgb(63, 73, 65)] leading-[100%] mb-[57.3px]">
+      <span className="mb-[23.9px] text-[21px] font-[700] text-[#8be89c] leading-[100%] mb-[57.3px]">
         MEET CROGE
       </span>
       <div className="flex mb-[127.55px] justify-between">
@@ -57,7 +57,7 @@ const CrogecoinHero = () => {
         </div>
         <div className="relative w-[677.82px] h-[615.45px]">
           <Image
-            src="svg/hero-logo-1.svg"
+            src="/svg/hero-logo-1.svg"
             alt="hero logo"
             width={677.82}
             height={615.45}
