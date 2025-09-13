@@ -10,7 +10,7 @@ const CrogecoinHero = () => {
       <span className="mb-[23.9px] text-[21px] font-[700] text-[rgb(63, 73, 65)] leading-[100%] mb-[57.3px]">
         MEET CROGE
       </span>
-      <div className="flex mb-[127.55px]">
+      <div className="flex mb-[127.55px] justify-between">
         <div className="flex flex-col items-start mr-[76.9px] w-[720px]">
           <div className="mb-[26.2px]">
             <h1 className="text-[93px] font-[700] mb-[41px] leading-[100%]">

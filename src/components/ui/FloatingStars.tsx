@@ -21,6 +21,12 @@ const Star = ({ top, left, direction = "up", size = 40 }: StarProps) => {
       animate={{
         y: [0, yShift, 0],
         scale: [1, 1.2, 1],
+        opacity: [0.7, 1, 0.7], // мерцание
+        filter: [
+          "drop-shadow(0 0 2px #fff)",
+          "drop-shadow(0 0 8px #ffd700)",
+          "drop-shadow(0 0 2px #fff)",
+        ], // свечение
       }}
       transition={{
         duration: 4 + Math.random() * 3,
@@ -42,7 +48,7 @@ const Star = ({ top, left, direction = "up", size = 40 }: StarProps) => {
 
 const FloatingStars = () => {
   return (
-    <div className="absolute inset-0 z-[99] w-full h-full overflow-hidden pointer-events-none">
+    <div className="absolute inset-0 z-[99] w-full h-full pointer-events-none">
       <Star top="-20px" left="60px" direction="down" size={30} />
       <Star top="50px" left="100px" direction="up" size={25} />
       <Star top="110px" left="650px" direction="down" size={35} />

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="relative z-[555] container">
       <CrogecoinHeader />
-      <span className="absolute border-[1.4px] border-[#fff] bg-[#fff] top-[760px] left-0 w-full -z-[10]"></span>
+      <span className="absolute border-[1.4px] border-[#fff] bg-[#fff] top-[800px] left-0 w-full -z-[10]"></span>
       <CrogecoinHero />
       <CoinCarousel />
     </div>
