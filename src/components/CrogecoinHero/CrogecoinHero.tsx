@@ -26,13 +26,13 @@ const CrogecoinHero = () => {
             <div className="mb-[20px] xl:mb-[26.2px] h-full">
               <h1
                 className="font-[700] leading-[100%] mb-[30px] 
-              text-[30px] md:text-[60px] lg:text-[75px] xl:text-[85px] 2xl:text-[93px]"
+              text-[30px] md:text-[60px] lg:text-[75px] xl:text-[85px] 2xl:text-[93px] text-[#FFF]"
               >
                 The&nbsp;Cronos &nbsp;Mascot
               </h1>
               <p
                 className="font-[600] w-[300px] sm:w-[400px]  md:w-full leading-[120%] mb-[40px] xl:mb-[74.7px]
-              md:text-[18px] lg:text-[21px] xl:text-[23px] 2xl:text-[25.6px] text-center"
+              md:text-[18px] lg:text-[21px] xl:text-[23px] 2xl:text-[25.6px] text-center text-[#FFF]"
               >
                 Crogecoin is an open source, peer-to-peer digital asset on the
                 cronos blockchain, favored by reptiles worldwide

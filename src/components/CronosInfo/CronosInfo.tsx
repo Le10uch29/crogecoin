@@ -15,13 +15,13 @@ const CronosInfo = () => {
         >
           <h2
             className="mt-[20px] md:mt-0 font-[600] leading-[100%] 
-           text-[39.9px] md:text-[63.9px]"
+           text-[39.9px] md:text-[63.9px] text-[#FFF]"
           >
             Scaleswap
           </h2>
           <p
             className="font-[600] 
-            md:text-[18px] lg:text-[21px] xl:text-[23px] 2xl:text-[25.6px]"
+            md:text-[18px] lg:text-[21px] xl:text-[23px] 2xl:text-[25.6px] text-[#FFF]"
           >
             A&nbsp;Cronos swap with efficient tax rules, reducing sell pressure.
             Use Scale to&nbsp;swap CRO for Croge, Scale, and coins
@@ -80,13 +80,13 @@ const CronosInfo = () => {
         >
           <h2
             className="mt-[20px] md:mt-0 font-[600] leading-[100%] 
-            text-[39.9px] md:text-[63.9px]"
+            text-[39.9px] md:text-[63.9px] text-[#FFF]"
           >
             Croge NFTs
           </h2>
           <p
             className="font-[600] 
-            md:text-[18px] lg:text-[21px] xl:text-[23px] 2xl:text-[25.6px]"
+            md:text-[18px] lg:text-[21px] xl:text-[23px] 2xl:text-[25.6px] text-[#FFF]"
           >
             A&nbsp;Collection of&nbsp;2646 uniquely generated NFTS
             on&nbsp;Ebisu&rsquo;s Bay​, the largest NFT marketplace

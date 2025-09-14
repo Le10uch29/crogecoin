@@ -21,7 +21,7 @@ const CopyAddress = () => {
 
   return (
     <div className="flex items-center font-mono w-[300px] md:w-[500px] lg:w-[713px]">
-      <span className="text-[10.6px] md:text-[16.6px] lg:text-[25.6px] font-[500] leading-[120%] mr-[12px]">
+      <span className="text-[10.6px] md:text-[16.6px] lg:text-[25.6px] font-[500] leading-[120%] mr-[12px] text-[#FFF]">
         CA:&nbsp;{address}
       </span>
       {copied ? (

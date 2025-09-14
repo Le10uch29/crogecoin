@@ -5,7 +5,7 @@ import Image from "next/image";
 const CrogecoinHeader = () => {
   return (
     <div className="flex justify-between items-center mb-[82.9px] w-full">
-      <p className="text-[32.2px] md:text-[64.2px] font-[600] leading-[100%] mr-[15px]">
+      <p className="text-[32.2px] md:text-[64.2px] font-[600] leading-[100%] mr-[15px] text-[#FFF]">
         crogecoin
       </p>
       <Link

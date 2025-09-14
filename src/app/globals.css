@@ -10,12 +10,6 @@
   }
 }
 
-p,
-h1,
-h2 {
-  color: #ffffff;
-}
-
 body {
   color: var(--foreground);
   font-family: "Poppins", Helvetica, sans-serif;
