@@ -15,7 +15,7 @@ const CronosInfo = () => {
         >
           <h2
             className="mt-[20px] md:mt-0 font-[600] leading-[100%] 
-           text-[63.9px]"
+           text-[39.9px] md:text-[63.9px]"
           >
             Scaleswap
           </h2>
@@ -80,7 +80,7 @@ const CronosInfo = () => {
         >
           <h2
             className="mt-[20px] md:mt-0 font-[600] leading-[100%] 
-            text-[63.9px]"
+            text-[39.9px] md:text-[63.9px]"
           >
             Croge NFTs
           </h2>

@@ -7,7 +7,7 @@ import CrogecoinHeader from "@/components/shared/CrogecoinHeader";
 export default function Home() {
   return (
     <>
-      <div className="relative z-[555] container ">
+      <div className="relative z-[555] container overflow-x-hidden">
         <CrogecoinHeader />
         <CrogecoinHero />
         <CoinCarousel />

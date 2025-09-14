@@ -20,16 +20,16 @@ const CopyAddress = () => {
   };
 
   return (
-    <div className="flex items-centerfont-mono w-[713px]">
-      <span className="text-[25.6px] font-[500] leading-[100%] mr-[12px]">
-        CA: {address}
+    <div className="flex items-center font-mono w-[300px] md:w-[500px] lg:w-[713px]">
+      <span className="text-[10.6px] md:text-[16.6px] lg:text-[25.6px] font-[500] leading-[120%] mr-[12px]">
+        CA:&nbsp;{address}
       </span>
       {copied ? (
-        <TbCheck className="text-green-500 text-19.1px]" />
+        <TbCheck className="text-green-500 text-[12.1px] md:text-[19.1px]" />
       ) : (
         <PiCopySimpleFill
           onClick={handleCopy}
-          className="cursor-pointer text-white text-[19.1px]"
+          className="cursor-pointer text-white text-[12.1px] md:text-[19.1px]"
         />
       )}
     </div>
