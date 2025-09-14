@@ -17,23 +17,22 @@ const CrogecoinHero = () => {
         </span>
 
         {/* Контейнер */}
-        <div className="flex mb-[80px] lg:mb-[100px] xl:mb-[110px] 2xl:mb-[127.55px]">
+        <div className="flex  mb-[80px] lg:mb-[100px] xl:mb-[110px] 2xl:mb-[127.55px]">
           {/* Левая часть */}
           <div
-            className="flex flex-col items-start 
+            className="flex flex-col  md:items-start 
           md:w-[500px] lg:w-[600px] xl:w-[680px] 2xl:w-[720px]"
           >
             <div className="mb-[20px] xl:mb-[26.2px] h-full">
               <h1
                 className="font-[700] leading-[100%] mb-[30px] 
-              md:text-[60px] lg:text-[75px] xl:text-[85px] 2xl:text-[93px]"
+              text-[30px] md:text-[60px] lg:text-[75px] xl:text-[85px] 2xl:text-[93px]"
               >
-                The Cronos
-                <br /> Mascot
+                The&nbsp;Cronos &nbsp;Mascot
               </h1>
               <p
                 className="font-[600] w-[300px] sm:w-[400px]  md:w-full leading-[120%] mb-[40px] xl:mb-[74.7px]
-              md:text-[18px] lg:text-[21px] xl:text-[23px] 2xl:text-[25.6px]"
+              md:text-[18px] lg:text-[21px] xl:text-[23px] 2xl:text-[25.6px] text-center"
               >
                 Crogecoin is an open source, peer-to-peer digital asset on the
                 cronos blockchain, favored by reptiles worldwide
@@ -41,7 +40,7 @@ const CrogecoinHero = () => {
               <CopyAddress />
             </div>
 
-            <div className="flex items-center justify-start relative">
+            <div className="flex items-center justify-center md:justify-start relative">
               <Link
                 href="https://coinmarketcap.com/currencies/crogecoin/"
                 className="group border-[2px] border-[rgba(0,0,0,1)] bg-[#ffffff] pl-[9.4px] pt-[13.2px] pb-[10.6px] pr-[33.1px] md:pl-[19.4px] md:pt-[26.2px] md:pb-[22.6px] md:pr-[48.1px] flex items-center rounded-[10px] md:rounded-[20px] mr-[23px]"

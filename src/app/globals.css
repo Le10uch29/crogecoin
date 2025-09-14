@@ -2,7 +2,6 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -62,4 +61,10 @@ button {
   box-shadow: 20px 20px 0px -1px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 20px 20px 0px -1px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 20px 20px 0px -1px rgba(0, 0, 0, 0.1);
+}
+
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
 }
