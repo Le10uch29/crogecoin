@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { BiLogoTelegram } from "react-icons/bi";
 import { TfiTwitterAlt } from "react-icons/tfi";
+import Link from "next/link";
 
 const CrogecoinFooter = () => {
   return (
@@ -28,21 +29,32 @@ const CrogecoinFooter = () => {
         expanding in&nbsp;DeFi, Metaverse, GameFi, and NFTs.
       </p>
       <div className="flex flex-wrap lg:flex-nowrap pr-0 md:pr-[111.4px]">
-        <p className="text-[15.6px] lg:text-[25.6px] font-[500] mr-[0] mb-[30px] lg:mb-0 text-[#FFF]">
+        <p className="text-[15.6px] lg:text-[25.6px] font-[500] mr-[0] md:mr-[10px] mb-[30px] lg:mb-0 text-[#FFF]">
           All rights reserved Copyright &copy;&nbsp;2025 crogecoin.com
         </p>
         <ul className="flex gap-[16.9px] ml-0 md:ml-[auto]">
           <li className="relative border-[2px] border-[#000] rounded-full flex justify-center items-center w-[53.1] h-[53.1px] bg-[rgba(0,166,43,1)]">
-            <BiLogoTelegram className="w-[29.76px] h-[25.18px] text-[#FFF]" />
+            <Link href="https://t.me/crogecoin" target="_blank">
+              <BiLogoTelegram className="w-[29.76px] h-[25.18px] text-[#FFF]" />
+            </Link>
           </li>
           <li className="relative border-[2px] border-[#000] rounded-full flex justify-center items-center w-[53.1] h-[53.1px] bg-[rgba(0,166,43,1)]">
-            <TfiTwitterAlt className=" w-[29.21px] h-[23.5px] text-[#fff]" />
+            <Link href="https://x.com/CrogeCoin" target="_blank">
+              <TfiTwitterAlt className=" w-[29.21px] h-[23.5px] text-[#fff]" />
+            </Link>
           </li>
           <li className="relative border-[2px] border-[#000] rounded-full flex justify-center items-center w-[53.1] h-[53.1px] bg-[rgba(0,166,43,1)]">
-            <FaFacebookF className="w-[13.5px] h-[29.5px] text-[#FFF]" />
+            <Link href="https://www.facebook.com/croge.crypto/" target="_blank">
+              <FaFacebookF className="w-[13.5px] h-[29.5px] text-[#FFF]" />
+            </Link>
           </li>
           <li className="relative border-[2px] border-[#000] rounded-full flex justify-center items-center w-[53.1] h-[53.1px] bg-[rgba(0,166,43,1)]">
-            <FaInstagram className="w-[26.49px] h-[26.65px] text-[#FFF]" />
+            <Link
+              href="https://instagram.com/crogecoinofficial/"
+              target="_blank"
+            >
+              <FaInstagram className="w-[26.49px] h-[26.65px] text-[#FFF]" />
+            </Link>
           </li>
         </ul>
       </div>
