@@ -36,12 +36,15 @@ const CrogecoinFooter = () => {
             <FaTelegram className="text-[rgba(0,166,43,1)] w-[53.1px] h-[53.05px]" />
           </li>
           <li className="relative border-[2px] border-[#000] rounded-full flex justify-center items-center w-[53.1] h-[53.1px] bg-[rgba(0,166,43,1)]">
-            <TfiTwitterAlt className=" w-[29.21px] h-[23.5px]" />
+            <span className="absolute top-[1px] left-[1px] bg-[#fff] w-[47px] h-[47px] rounded-full -z-[999]"></span>
+            <TfiTwitterAlt className=" w-[29.21px] h-[23.5px] text-[#fff]" />
           </li>
           <li className="relative border-[2px] border-[#000] rounded-full flex justify-center items-center w-[53.1] h-[53.1px] bg-[rgba(0,166,43,1)]">
+            <span className="absolute top-[1px] left-[1px] bg-[#fff] w-[47px] h-[47px] rounded-full -z-[999]"></span>
             <FaFacebookF className="w-[13.5px] h-[29.5px]" />
           </li>
           <li className="relative border-[2px] border-[#000] rounded-full flex justify-center items-center w-[53.1] h-[53.1px] bg-[rgba(0,166,43,1)]">
+            <span className="absolute top-[1px] left-[1px] bg-[#fff] w-[47px] h-[47px] rounded-full -z-[999]"></span>
             <FaInstagram className="w-[26.49px] h-[26.65px]" />
           </li>
         </ul>
